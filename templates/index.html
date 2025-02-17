@@ -1,0 +1,64 @@
+{% import "macros/list.html" as list %}
+
+{% extends "default.html" %}
+
+{% block nav %}
+<header class="n:container r:d-none">
+    <nav class="n:menu text-right">
+        <input id="nav" type="checkbox" class="btn-check">
+        <label for="nav" aria-label="button" class="n:icon d-inline-block m-1"></label>
+
+        <div class="ml-3 d-none b:d-flex flex-column">
+            {% for header_page in config.extra.header_pages %}
+                <a class="p-2" href="{{ get_url(path = header_page.url) | safe }}">{{ header_page.name }}</a>
+            {% endfor %}
+        </div>
+    </nav>
+</header>
+{% endblock %}
+
+{% block header %}
+<header class="bg-odd{% if config.extra.banner %} bg-{{ config.extra.banner.extension }} bg-{{ config.extra.banner.size }}{%if config.extra.banner.no_repeat %} bg-no-repeat{% endif %}{% endif %}">
+    <div class="container d-flex justify-center">
+        <div class="header text-center px-3 py-4{% if config.extra.banner.fade %} fade{% endif %}">
+            {% if config.extra.title.url %}<a href="{% if config.extra.title.url is string %}{{ config.extra.title.url }}{% else %}{{ get_url(path = '/') }}{% endif %}">{% endif %}
+            <h1 id="home" style="color:white;"><strong>{% if config.extra.title.tagline %}<span class="tagline h3">{{ config.extra.title.tagline }}</span> {% endif %}{{ config.extra.title.title }}</strong></h1>
+            {% if config.extra.title.url %}</a>{% endif %}
+
+            {% if config.extra.title.subtitles %}
+                {% for subtitle in config.extra.title.subtitles %}
+                    <h2 class="h3{% if not loop.last %} mb-2{% endif %}" style="color:white;"><strong>{{ subtitle }}</strong></h2>
+                {% endfor %}
+            {% endif %}
+
+            {% if config.extra.buttons %}
+                <div class="d-flex justify-center">
+                    {% for button in config.extra.buttons %}
+                        <a class="btn mx-1" href="{{ button.url | safe }}">{{ button.name }}</a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+{% block main %}
+<main aria-label="Content">
+    {% block content %}
+        <div class="bg-even">
+            <section class="container content py-5">
+                {{ list::insert_list(content = this.content) | safe }}
+            </section>
+        </div>
+    {% endblock %}
+</main>
+{% endblock main %}
+
+{% block footer %}
+    {% if config.extra.footer_text %}
+        <footer class="footer">
+            {{ config.extra.footer_text | markdown | safe }}
+        </footer>
+    {% endif %}
+{% endblock %}

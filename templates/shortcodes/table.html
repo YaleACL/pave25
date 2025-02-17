@@ -1,0 +1,42 @@
+{% set input = load_data(path = data) %}
+<table>
+    <thead>
+        <tr>
+            {% for column in input.headers %}
+                {% if columns is containing(input.headers[loop.index0]) %}
+                    <th>{{ column }}</th>
+                {% endif %}
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in input.records %}
+            <tr>
+                {% for column in row %}
+                    {% if columns is containing(input.headers[loop.index0]) %}
+                        <td>
+                            {{- column -}}
+                            {%- set column_idx = loop.index -%}
+                            {%- for button_output_column in button_output_columns -%}
+                                {%- if column_idx == button_output_column -%}
+                                    {%- set button_data_column = button_data_columns | nth(n = loop.index0) -%}
+                                    {%- set name = button_names | nth(n = loop.index0) -%}
+                                    {%- set url = row | nth(n = button_data_column - 1) -%}
+                                    {{ ' ' }}
+                                    {%- if url -%}
+                                        {%- if url is starting_with('/') -%}
+                                            {%- set full_url = config.base_url ~ url -%}
+                                        {%- else -%}
+                                            {%- set full_url = url -%}
+                                        {%- endif -%}
+                                        <a class="btn small px-1 py-0" href="{{ full_url | safe }}">{{ name }}</a>
+                                    {%- endif -%}
+                                {%- endif -%}
+                            {%- endfor -%}
+                        </td>
+                    {% endif %}
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

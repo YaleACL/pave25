@@ -1,0 +1,11 @@
+{% import "macros/list.html" as list %}
+
+{% extends "index.html" %}
+
+{% block content %}
+    <div class="bg-a">
+        <section class="container py-5">
+            {{ list::item(page = page, highlight = true) }}
+        </section>
+    </div>
+{% endblock %}

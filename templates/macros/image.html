@@ -1,0 +1,45 @@
+{%- macro resize(url=false, name=false, directory=false) -%}
+{%- if url %}
+    {%- set image_url = url -%}
+{%- elif name -%}
+    {% if directory %}
+        {% set image_dir_no_trailing_slash = directory | trim_end_matches(pat = '/') %}
+        {% set image_dir = image_dir_no_trailing_slash ~ '/' %}
+    {% else %}
+        {% set image_dir = '' %}
+    {% endif %}
+    {%- set image_file_name = name | slugify -%}
+    {%- set image_url = image_dir ~ image_file_name ~ config.extra.image.ext -%}
+{%- else -%}
+    {%- set error = throw(message = 'Either a URL or name must be defined for image resizing.') -%}
+{%- endif -%}
+{%- set image = get_image_metadata(path = image_url, allow_missing = true) -%}
+{%- if not image -%}
+    {%- set image_url = 'placeholder.svg' -%}
+    {%- set image = get_image_metadata(path = image_url) -%}
+{%- endif -%}
+{%- if config.extra.image.resize -%}
+    {%- set target_size_1x = config.extra.image.resize / 2 -%}
+    {%- if image.format == 'svg' -%}
+        {%- if image.width == target_size_1x and image.height == target_size_1x -%}
+            {%- set image_1x_url = get_url(path = image_url) -%}
+        {%- else -%}
+            {%- set error = throw(message = 'Image resizing is enabled, but does not support resizing SVGs. Detected an SVG with path ' ~ image_url ~ ' of size (' ~ image.height ~ ',' ~ image.width ~ ') but expected size (' ~ target_size_1x ~ ',' ~ target_size_1x ~ '). Please set the height and width of your SVG to the correct size. You might need to restart Zola to detect the new size.') -%}
+        {%- endif -%}
+    {%- else -%}
+        {%- set image_2x = resize_image(path = image_url, width = config.extra.image.resize, height = config.extra.image.resize, op = 'fill') -%}
+        {%- set image_1x = resize_image(path = image_url, width = target_size_1x, height = target_size_1x, op = 'fill') -%}
+        {%- set image_2x_url = image_2x.url -%}
+        {%- set image_1x_url = image_1x.url -%}
+    {%- endif -%}
+{%- else -%}
+    {%- set image_1x_url = get_url(path = image_url) -%}
+{%- endif -%}
+{%- if image_2x_url -%}
+    {%- set srcset = 'srcset="' ~ image_2x_url ~ ' 2x, ' ~ image_1x_url ~ ' 1x" ' -%}
+{%- else -%}
+    {%- set srcset = '' -%}
+{%- endif -%}
+{%- set src = 'src="' ~ image_1x_url ~ '"' -%}
+{{ srcset ~ src }}
+{%- endmacro -%}

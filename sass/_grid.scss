@@ -1,0 +1,58 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    justify-content: center;
+    row-gap: 3rem;
+}
+.grid > * {
+    grid-column: span 24;
+}
+@media (min-width: round(3 * $container-width / 8)) {
+    .grid > * {
+        grid-column: span 12;
+    }
+    .grid:has(>:nth-child(odd):last-child) > *:first-child {
+        grid-column-end: 19;
+    }
+}
+@media (min-width: round(9 * $container-width / 16)) {
+    .grid > * {
+        grid-column: span 8;
+    }
+    .grid:has(>:nth-child(odd):last-child) > *:first-child {
+        grid-column-end: unset;
+    }
+    .grid:has(>:nth-child(3n+2):last-child) > *:first-child, .grid:has(>:nth-child(3n+4):last-child) > *:first-child, .grid:has(>:nth-child(3n+4):last-child) > *:nth-child(3) {
+        grid-column-end: 13;
+    }
+    .grid:has(>:nth-child(1):last-child) > *:first-child {
+        grid-column-end: 17;
+    }
+}
+@media (min-width: round(3 * $container-width / 4)) {
+    .grid > * {
+        grid-column: span 6;
+    }
+    .grid:has(>:nth-child(3n+2):last-child) > *:first-child, .grid:has(>:nth-child(3n+4):last-child) > *:first-child, .grid:has(>:nth-child(3n+4):last-child) > *:nth-child(3) {
+        grid-column-end: unset;
+    }
+    .grid:has(>:nth-child(4n+2):last-child) > *:nth-child(3) {
+        grid-column-end: 7;
+    }
+    .grid:has(>:nth-child(4n+2):last-child) > *:first-child {
+        grid-column-end: 13;
+    }
+    .grid:has(>:nth-child(4n+3):last-child) > *:first-child, .grid:has(>:nth-child(4n+5):last-child) > *:first-child, .grid:has(>:nth-child(4n+5):last-child) > *:nth-child(4), .grid:has(>:nth-child(4n+5):last-child) > *:nth-child(7), .grid:has(>:nth-child(5):last-child) > *:nth-child(3), .grid:has(>:nth-child(6):last-child) > *:first-child, .grid:has(>:nth-child(6):last-child) > *:nth-child(4) {
+        grid-column-end: 10;
+    }
+    .grid:has(>:nth-child(5):last-child) > *:first-child {
+        grid-column-end: 13;
+    }
+    .grid:has(>:nth-child(1):last-child) > *:first-child, .grid:has(>:nth-child(5):last-child) > *:nth-child(4) {
+        grid-column-end: 16;
+    }
+    .grid:has(>:nth-child(6):last-child) > *:nth-child(3) {
+        grid-column-end: 22;
+    }
+}

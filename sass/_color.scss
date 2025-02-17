@@ -1,0 +1,24 @@
+:root {
+    color-scheme: light dark;
+    --color-text: #{$color-text};
+    --color-primary: #{$color-primary};
+    --color-light: #{$color-light};
+    --color-white: #{$color-white};
+    --color-black: #{$color-black};
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        @if $color-text-dark { --color-text: #{$color-text-dark}; }
+        @if $color-primary-dark { --color-primary: #{$color-primary-dark}; }
+        @if $color-light-dark { --color-light: #{$color-light-dark}; }
+        @if $color-white-dark { --color-white: #{$color-white-dark}; }
+        @if $color-black-dark { --color-black: #{$color-black-dark}; }
+    }
+    .dark-invert, .n\:icon {
+        filter: invert(90%) hue-rotate(180deg) sepia(10%);
+    }
+    img:not(.dark-invert) {
+        filter: brightness(80%);
+    }
+}
