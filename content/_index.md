@@ -81,7 +81,7 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
     images = [
         "https://seas.yale.edu/sites/default/files/imagecache/person/bergemann-web.jpg",
         "https://seas.yale.edu/sites/default/files/imagecache/person/fisch-web.jpg",
-        "https://www.cs.yale.edu/homes/cpap/papamanthou.jpg",
+        "https://campuspress.yale.edu/fdstest/files/2023/01/CharalamposPapamanthou.jpeg",
         "https://seas.yale.edu/sites/default/files/imagecache/person/sotiraki-web.jpg",
         "https://gilbert.berkeley.edu/wp-content/uploads/2021/02/philipp_strack.jpg",
         "https://avatars.githubusercontent.com/u/12000894?v=4",
