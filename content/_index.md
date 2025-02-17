@@ -61,13 +61,13 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
 
 {{ grid(
     text = [
-        ["Dirk Bergemann", "Yale University"]
-        ["Ben Fisch", "Yale University"]
-        ["Charalampos Papamanthou", "Yale University"]
-        ["Katerina Sotiraki", "Yale University"]
-        ["Philipp Strack", "Yale University"]
-        ["Aviv Yaish", "Yale University"]
-        ["Fan Zhang", "Yale University"]
+        ["Dirk Bergemann", "Yale University"],
+        ["Ben Fisch", "Yale University"],
+        ["Charalampos Papamanthou", "Yale University"],
+        ["Katerina Sotiraki", "Yale University"],
+        ["Philipp Strack", "Yale University"],
+        ["Aviv Yaish", "Yale University"],
+        ["Fan Zhang", "Yale University"],
     ],
     urls = [
         "http://campuspress.yale.edu/dirkbergemann/",
