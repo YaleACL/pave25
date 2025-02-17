@@ -10,7 +10,7 @@
             {% if lines is not iterable %}
                 {% set lines = [text[loop.index0]] %}
             {% endif %}
-            <img class="{% if dark_invert[loop.index0] %}dark-invert {% endif %}rounded-circle mx-auto mb-3" alt="{{ lines[0] }}" {{ image::resize(url = images[loop.index0] | default(value = false), name = lines[0] | default(value = false)) }}>
+            <img class="{% if dark_invert[loop.index0] %}dark-invert {% endif %}rounded-circle mx-auto mb-3" alt="{{ lines[0] }}" {{ image::resize(url = images[loop.index0] | default(value = false), name = lines[0], directory = false | default(value = false)) }}>
             {% for line in lines %}
                 {% if loop.first %}
                     <h2 class="h4 my-1">{{ line }}</h2>
