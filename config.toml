@@ -1,0 +1,19 @@
+base_url = "https://aterenin.github.io/academic-workshop"
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+minify_html = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+smart_punctuation = true
+
+[extra]
+footer_text = "The 2nd Yale Symposium, New Haven, CT, USA - Friday, April 11th, 2025."
+title = {tagline = "   ", title = "The 2nd Yale Symposium", subtitles = ["on Privacy, Accountability, Verification and Economics of Blockchain Systems"]}
+banner = {extension = "jpg", size = "fixed", fade = false}
+# buttons = [{name = "Website", url = "https://aterenin.github.io/academic-workshop"}, {name="GitHub", url="http://github.com/aterenin/academic-workshop"}]
+image = {resize = 400, ext = '.jpg'}
+list_page_limit = 10
+header_pages = [{name = "Home", url = "/#home"},{name = "Previous Editions", url = "./previous"}]
