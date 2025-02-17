@@ -17,11 +17,8 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
 
 | Time             | Event            |
 | ---------------- | ---------------- |
-| 10:00am - 10:15am | Introduction and Opening Remarks: Speaker Name A     |
-| 10:15am - 11:00am  | Speaker A        |
-| 12:00pm - 01:00pm  | Speaker B        |
-| 02:00pm - 03:00pm  | Discussion Panel |
-| 03:00pm - 04:00pm  | Discussion Panel |
+| 10:00am - 10:15am | Introduction and Opening Remarks |
+| 10:15am - 04:00pm  | TBA        |
 
 
 {{ new_block() }}
