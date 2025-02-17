@@ -24,36 +24,6 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
 {{ new_block() }}
 
 
-# Speakers
-
-{{ grid(
-    text = [
-        ["Speaker A","Institution A"], 
-        ["Speaker B","Institution B"],
-        ["Speaker C","Institution C"],
-        ["Speaker D","Institution D"],
-        ["Speaker E","Institution E"],
-    ],
-    urls = [
-        "https://yaleacl.github.io/pace25#speaker_a",
-        "https://yaleacl.github.io/pace25#speaker_b",
-        "https://yaleacl.github.io/pace25#speaker_c",
-        "https://yaleacl.github.io/pace25#speaker_d",
-        "https://yaleacl.github.io/pace25#speaker_e",
-    ],
-    images = [
-        "placeholder.svg",
-        "placeholder.svg",
-        "placeholder.svg",
-        "placeholder.svg",
-        "placeholder.svg",
-    ],
-    narrow = true) }}
-
-
-{{ new_block() }}
-
-
 # Organizers
 
 {{ link_grid(
