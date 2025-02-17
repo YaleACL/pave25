@@ -11,7 +11,7 @@ smart_punctuation = true
 
 [extra]
 footer_text = "The 2nd Yale Symposium, New Haven, CT, USA - Friday, April 11th, 2025."
-title = {tagline = "   ", title = "The 2nd Yale Symposium", subtitles = ["on Privacy, Accountability, Verification and Economics of Blockchain Systems"]}
+title = {tagline = "   ", title = "The 2nd Yale Symposium", subtitles = ["on Privacy, Accountability, Verification and Economics of Blockchain Systems", "Friday, April 11th, 2025", "New Haven, CT, USA"]}
 banner = {extension = "jpg", size = "fixed", fade = false}
 # buttons = [{name = "Website", url = "https://YaleACL.github.io/PACE25"}, {name="GitHub", url="http://github.com/YaleACL/PACE25"}]
 image = {resize = 400, ext = '.jpg'}
