@@ -79,13 +79,13 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
         "https://www.fanzhang.me/",
     ],
     images = [
-        "placeholder.svg",
-        "placeholder.svg",
-        "placeholder.svg",
-        "placeholder.svg",
-        "placeholder.svg",
-        "placeholder.svg",
-        "placeholder.svg",
+        "https://seas.yale.edu/sites/default/files/imagecache/person/bergemann-web.jpg",
+        "https://seas.yale.edu/sites/default/files/imagecache/person/fisch-web.jpg",
+        "https://www.cs.yale.edu/homes/cpap/papamanthou.jpg",
+        "https://seas.yale.edu/sites/default/files/imagecache/person/sotiraki-web.jpg",
+        "https://economics.yale.edu/sites/default/files/styles/headshot/public/1377321_10201193578375632_293140821_n_0_0_0_0_0_0_0_0_0_0_0_0_0_0.jpg?h=d0dd59e8&itok=p-WeGoIO",
+        "https://cpsc.yale.edu/sites/default/files/event-images/aviv_yaish.png",
+        "https://seas.yale.edu/sites/default/files/imagecache/person/zhang-web.jpg",
     ],
     narrow = true) }}
 
