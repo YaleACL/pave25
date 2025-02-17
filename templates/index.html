@@ -27,7 +27,7 @@
 
             {% if config.extra.title.subtitles %}
                 {% for subtitle in config.extra.title.subtitles %}
-                    <h2 class="h3{% if not loop.last %} mb-2{% endif %}" style="color:white;"><strong>{{ subtitle }}</strong></h2>
+                    <h2 class="h3{% if not loop.last %} mb-2{% endif %}" style="color:white;"><strong>{{ subtitle | safe }}</strong></h2>
                 {% endfor %}
             {% endif %}
 
