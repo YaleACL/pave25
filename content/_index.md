@@ -24,11 +24,11 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
         ["Speaker E","Institution E"],
     ],
     urls = [
-        "https://aterenin.github.io/academic-workshop#speaker_a",
-        "https://aterenin.github.io/academic-workshop#speaker_b",
-        "https://aterenin.github.io/academic-workshop#speaker_c",
-        "https://aterenin.github.io/academic-workshop#speaker_d",
-        "https://aterenin.github.io/academic-workshop#speaker_e",
+        "https://yaleacl.github.io/pace25#speaker_a",
+        "https://yaleacl.github.io/pace25#speaker_b",
+        "https://yaleacl.github.io/pace25#speaker_c",
+        "https://yaleacl.github.io/pace25#speaker_d",
+        "https://yaleacl.github.io/pace25#speaker_e",
     ],
     images = [
         "placeholder.svg",
@@ -49,11 +49,36 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
 
 {{ grid(
     text = [
-        "Organizer A",
-        "Organizer B",
+        ["Dirk Bergemann", "Yale University"]
+        ["Ben Fisch", "Yale University"]
+        ["Charalampos Papamanthou", "Yale University"]
+        ["Katerina Sotiraki", "Yale University"]
+        ["Philipp Strack", "Yale University"]
+        ["Aviv Yaish", "Yale University"]
+        ["Fan Zhang", "Yale University"]
+    ],
+    urls = [
+        "http://campuspress.yale.edu/dirkbergemann/",
+        "https://sites.google.com/site/benafisch/",
+        "https://www.cs.yale.edu/homes/cpap/",
+        "https://sotiraki.com/",
+        "http://philippstrack.com/",
+        "https://aviv.yai.sh/",
+        "https://www.fanzhang.me/",
+    ],
+    images = [
+        "placeholder.svg",
+        "placeholder.svg",
+        "placeholder.svg",
+        "placeholder.svg",
+        "placeholder.svg",
+    ],
+    narrow = true) }}
+{{ grid(
+    text = [
+        
     ],
     image_dir = "organizers") }}
-
 
 {{ new_block() }}
 
