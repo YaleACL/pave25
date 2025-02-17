@@ -72,13 +72,10 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
         "placeholder.svg",
         "placeholder.svg",
         "placeholder.svg",
+        "placeholder.svg",
+        "placeholder.svg",
     ],
     narrow = true) }}
-{{ grid(
-    text = [
-        
-    ],
-    image_dir = "organizers") }}
 
 {{ new_block() }}
 
@@ -88,9 +85,10 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
 
 | Time             | Event            |
 | ---------------- | ---------------- |
-| 12:00pm - 01:00pm | Introduction and Opening Remarks: Speaker Name A     |
-| 01:00pm - 02:00pm  | Speaker A        |
-| 02:00pm - 03:00pm  | Speaker B        |
+| 10:00am - 10:15am | Introduction and Opening Remarks: Speaker Name A     |
+| 10:15am - 11:00am  | Speaker A        |
+| 12:00pm - 01:00pm  | Speaker B        |
+| 02:00pm - 03:00pm  | Discussion Panel |
 | 03:00pm - 04:00pm  | Discussion Panel |
 
 
