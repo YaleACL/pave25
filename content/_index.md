@@ -37,8 +37,8 @@ From a dedicated physical space at Yale University, PAVE focuses on advancing th
         "https://www.cs.princeton.edu/~smattw/",
     ],
     images = [
-        "https://static.wixstatic.com/media/c84beb_86fc8b4de844415abdb858d24da6c4f6~mv2.jpg/v1/fill/w_301,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/McGill-400x400.jpg",
-        "https://timroughgarden.org/photos/headshot1.jpg",
+        "https://prod.cdn.business.wfu.edu/uploads/2023/12/Fahad-400x400-1.webp",
+        "https://api.a16zcrypto.com/wp-content/uploads/2023/01/Tim-Roughgarden-240x240-1.jpeg",
         "https://www.cs.princeton.edu/~smattw/matt4.jpg",
     ],
     narrow = true) }}
