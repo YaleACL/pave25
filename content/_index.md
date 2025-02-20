@@ -2,7 +2,7 @@
 title = "The 2nd Yale PACE Symposium"
 +++
 
-This is a one-day event of talks and discussion, organized and supported by the [Center for Algorithms, Data, and Market Design at Yale (CADMY)](https://cadmy.yale.edu/), and co-organized by [Yale's Applied Cryptography Lab (YACL)](https://yacl.cs.yale.edu/).
+This is a one-day event of talks and discussion, organized by [Yale's Applied Cryptography Lab (YACL)](https://yacl.cs.yale.edu/), and co-organized and supported by the [Center for Algorithms, Data, and Market Design at Yale (CADMY)](https://cadmy.yale.edu/).
 
 PAVE (Privacy, Accountability, Verification, and Economics of Blockchain systems) brings an interdisciplinary approach to blockchain deployment, infrastructure, and adoption.
 Its multifaceted team draws on extensive experience across Computer Science, Economics, and Law.

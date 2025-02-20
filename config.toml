@@ -10,10 +10,10 @@ highlight_theme = "css"
 smart_punctuation = true
 
 [extra]
-footer_text = "The 2nd Yale Symposium, New Haven, CT, USA - Friday, April 11th, 2025."
+footer_text = "The 2nd Yale PACE Symposium, New Haven, CT, USA - Friday, April 11th, 2025."
 title = {tagline = "   ", title = "The 2nd Yale Symposium", subtitles = ["on Privacy, Accountability, Verification and Economics of Blockchain Systems", "<small>New Haven, CT, USA — Friday, April 11th, 2025</small>"]}
 banner = {extension = "jpg", size = "fixed", fade = false}
-# buttons = [{name = "Website", url = "https://yaleacl.github.io/pace25"}, {name="GitHub", url="http://github.com/yaleacl/pace25"}]
+buttons = [{name = "RSVP", url = "https://forms.gle/FVP38mttYY5dHqw96"}]
 image = {resize = 400, ext = '.jpg'}
 list_page_limit = 10
 header_pages = [{name = "Home", url = "/#home"},{name = "Previous Editions", url = "./previous"}]
