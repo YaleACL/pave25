@@ -29,6 +29,7 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
         ["Matt Weinberg", "Princeton University"],
     ],
     urls = [
+        "https://www.chelseakomlo.com/",
         "https://timroughgarden.org/",
         "https://www.cryptoeconprof.com/",
         "https://www.cs.princeton.edu/~smattw/",
