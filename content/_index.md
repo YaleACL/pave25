@@ -23,18 +23,20 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
 
 {{ link_grid(
     text = [
-        ["Fahad Saleh", "University of Florida"],
+        ["Chelsea Komlo", "University of Waterloo & NEAR"],
         ["Tim Roughgarden", "Columbia University & a16z crypto"],
+        ["Fahad Saleh", "University of Florida"],
         ["Matt Weinberg", "Princeton University"],
     ],
     urls = [
-        "https://www.cryptoeconprof.com/",
         "https://timroughgarden.org/",
+        "https://www.cryptoeconprof.com/",
         "https://www.cs.princeton.edu/~smattw/",
     ],
     images = [
-        "https://prod.cdn.business.wfu.edu/uploads/2023/12/Fahad-400x400-1.webp",
+        "https://secure.gravatar.com/avatar/ae3189b3f88830beadae8f0afdc1c2b920792e9fc5ee490ac615a3b8e1f7f7c5?s=384&d=identicon",
         "https://api.a16zcrypto.com/wp-content/uploads/2023/01/Tim-Roughgarden-240x240-1.jpeg",
+        "https://prod.cdn.business.wfu.edu/uploads/2023/12/Fahad-400x400-1.webp",
         "https://www.cs.princeton.edu/~smattw/matt4.jpg",
     ],
     narrow = true) }}
