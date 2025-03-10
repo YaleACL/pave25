@@ -12,8 +12,8 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
 
 | Time             | Event            |
 | ---------------- | ---------------- |
-| 10:00am - 10:15am | Introduction and Opening Remarks |
-| 10:15am - 04:00pm  | TBA        |
+| 09:00am - 09:15am | Introduction and Opening Remarks |
+| 09:15am - 04:00pm | TBA        |
 
 
 {{ new_block() }}
@@ -23,25 +23,31 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
 
 {{ link_grid(
     text = [
+        ["Lewis Cohen", "Cahill Gordon & Reindel LLP"],
         ["Chelsea Komlo", "University of Waterloo & NEAR"],
         ["Longfei Qiu", "Yale University"],
         ["Tim Roughgarden", "Columbia University & a16z crypto"],
         ["Fahad Saleh", "University of Florida"],
         ["Matt Weinberg", "Princeton University"],
+        ["Vassilis Zikas", "Georgia Tech"],
     ],
     urls = [
+        "https://www.cahill.com/professionals/lewis-cohen",
         "https://www.chelseakomlo.com/",
         "https://flint.cs.yale.edu/",
         "https://timroughgarden.org/",
         "https://www.cryptoeconprof.com/",
         "https://www.cs.princeton.edu/~smattw/",
+        "https://faculty.cc.gatech.edu/~vzikas/",
     ],
     images = [
+        "https://www.cahill.com/professionals/lewis-cohen/_res/id=Picture",
         "https://secure.gravatar.com/avatar/ae3189b3f88830beadae8f0afdc1c2b920792e9fc5ee490ac615a3b8e1f7f7c5?s=384&d=identicon",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF3VEE9NiuF8khib0R3FVurxJvCJgmDpOb5g&s",
         "https://api.a16zcrypto.com/wp-content/uploads/2023/01/Tim-Roughgarden-240x240-1.jpeg",
         "https://prod.cdn.business.wfu.edu/uploads/2023/12/Fahad-400x400-1.webp",
         "https://www.cs.princeton.edu/~smattw/matt4.jpg",
+        "https://faculty.cc.gatech.edu/~vzikas/pubs/vzikas.jpg",
     ],
     narrow = true) }}
 
