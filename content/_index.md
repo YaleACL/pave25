@@ -47,7 +47,7 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
         "https://api.a16zcrypto.com/wp-content/uploads/2023/01/Tim-Roughgarden-240x240-1.jpeg",
         "https://prod.cdn.business.wfu.edu/uploads/2023/12/Fahad-400x400-1.webp",
         "https://www.cs.princeton.edu/~smattw/matt4.jpg",
-        "https://faculty.cc.gatech.edu/~vzikas/pubs/vzikas.jpg",
+        "https://www.cerias.purdue.edu/assets/images/people/zikas_300.png",
     ],
     narrow = true) }}
 
