@@ -12,7 +12,7 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
 
 | Time             | Title            | Speaker          |
 | ---------------: | :--------------: | :--------------- |
-| 09:00am - 09:05am | Opening Remarks | Ben Fisch |
+| 09:00am - 09:05am | Introduction and Opening Remarks | Ben Fisch (Yale University) |
 | 09:05am - 04:00pm | TBA        | TBA        |
 
 
