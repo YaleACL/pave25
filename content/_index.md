@@ -11,7 +11,7 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
 # Schedule
 
 | Time              | Title                               |
-| ----------------: | :---------------------------------- |
+| :---------------: | :---------------------------------- |
 | 08:00am - 09:00am | Breakfast                           |
 | 09:00am - 09:05am | Introduction by Ben Fisch (Yale)    |
 | 09:05am - 12:00pm | TBA                                 |
