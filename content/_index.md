@@ -10,15 +10,15 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
 
 # Schedule
 
-| Time              | Title            |
-| :---------------: | :--------------: |
-| 08:00am - 09:00am | Breakfast |
-| 09:00am - 09:05am | Introduction by Ben Fisch (Yale) |
-| 09:05am - 12:00pm | TBA       |
-| 12:00pm - 01:15pm | Lunch       |
-| 01:15pm - 02:00pm | TBA       |
+| Time              | Title                               |
+| ----------------: | :---------------------------------- |
+| 08:00am - 09:00am | Breakfast                           |
+| 09:00am - 09:05am | Introduction by Ben Fisch (Yale)    |
+| 09:05am - 12:00pm | TBA                                 |
+| 12:00pm - 01:15pm | Lunch                               |
+| 01:15pm - 02:00pm | TBA                                 |
 | 02:15pm - 03:00pm | Fahad Saleh (University of Florida) |
-| 03:15pm - 04:00pm | Matt Weinberg (Prinecton) |
+| 03:15pm - 04:00pm | Matt Weinberg (Prinecton)           |
 
 
 {{ new_block() }}
