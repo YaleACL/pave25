@@ -10,15 +10,18 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
 
 # Schedule
 
-| Time              | Title                               |
-| :---------------: | :---------------------------------- |
-| 08:00am - 09:00am | Breakfast                           |
-| 09:00am - 09:05am | Introduction by Ben Fisch (Yale)    |
-| 09:05am - 12:00pm | TBA                                 |
-| 12:00pm - 01:15pm | Lunch                               |
-| 01:15pm - 02:00pm | TBA                                 |
-| 02:15pm - 03:00pm | Fahad Saleh (University of Florida) |
-| 03:15pm - 04:00pm | Matt Weinberg (Prinecton)           |
+| Time              | Title                                                               |
+| :---------------: | :------------------------------------------------------------------ |
+| 08:00am - 09:00am | Breakfast                                                           |
+| 09:00am - 09:05am | Introduction by Ben Fisch (Yale University)                         |
+| 09:05am - 09:50am | Keynote talk by Tim Roughgarden (Columbia University & a16z crypto) |
+| 10:00am - 10:45am | Chelsea Komlo (University of Waterloo & NEAR)                       |
+| 11:00am - 11:45am | Vassilis Zikas (Georgia Tech)                                       |
+| 11:45am - 01:00pm | Lunch                                                               |
+| 01:00pm - 01:45pm | Longfei Qiu (Yale University)                                       |
+| 02:00pm - 02:45pm | Lewis Cohen (Cahill Gordon & Reindel LLP)                           |
+| 03:00pm - 03:45pm | Fahad Saleh (University of Florida)                                 |
+| 04:00pm - 04:45pm | Matt Weinberg (Prinecton)                                           |
 
 
 {{ new_block() }}
