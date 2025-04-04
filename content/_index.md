@@ -3,6 +3,7 @@ title = "The 2nd Yale PAVE Symposium"
 +++
 
 This is a one-day event of talks and discussion, organized by [Yale's Applied Cryptography Lab (YACL)](https://yacl.cs.yale.edu/), and co-organized and supported by the [Center for Algorithms, Data, and Market Design at Yale (CADMY)](https://cadmy.yale.edu/).
+The event will take place in [17 Hillhouse Avenue (Room 328), New Haven, CT 06511](https://www.google.com/maps?q=17+Hillhouse+Avenue,+New+Haven,+CT,+06511,+us).
 
 
 {{ new_block() }}
@@ -20,7 +21,7 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
 | 11:45am - 01:00pm | Lunch                                                               |
 | 01:00pm - 01:45pm | Longfei Qiu (Yale University)                                       |
 | 02:00pm - 02:45pm | Lewis Cohen (Cahill Gordon & Reindel LLP)                           |
-| 03:00pm - 03:45pm | Fahad Saleh (University of Florida)                                 |
+| 03:00pm - 03:45pm | An Economic Model of the L1-L2 Interaction, Fahad Saleh (University of Florida) |
 | 04:00pm - 04:45pm | Matt Weinberg (Prinecton)                                           |
 
 

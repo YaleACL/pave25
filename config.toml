@@ -11,7 +11,7 @@ smart_punctuation = true
 
 [extra]
 footer_text = "The 2nd Yale PAVE Symposium, New Haven, CT, USA - Friday, April 11th, 2025."
-title = {tagline = "   ", title = "The 2nd Yale Symposium", subtitles = ["on Privacy, Accountability, Verification and Economics of Blockchain Systems", "<small>New Haven, CT, USA — Friday, April 11th, 2025</small>"]}
+title = {tagline = "   ", title = "The 2nd Yale Symposium", subtitles = ["on Privacy, Accountability, Verification and Economics of Blockchain Systems", "<small>Yale University — Friday, April 11th, 2025</small>"]}
 banner = {extension = "jpg", size = "fixed", fade = false}
 buttons = [{name = "RSVP", url = "https://forms.gle/FVP38mttYY5dHqw96"}]
 image = {resize = 400, ext = '.jpg'}
