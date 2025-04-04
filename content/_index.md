@@ -3,13 +3,14 @@ title = "The 2nd Yale PAVE Symposium"
 +++
 
 This is a one-day event of talks and discussion, organized by [Yale's Applied Cryptography Lab (YACL)](https://yacl.cs.yale.edu/), and co-organized and supported by the [Center for Algorithms, Data, and Market Design at Yale (CADMY)](https://cadmy.yale.edu/).
-The event will take place in [17 Hillhouse Avenue (Room 328), New Haven, CT 06511](https://www.google.com/maps?q=17+Hillhouse+Avenue,+New+Haven,+CT,+06511,+us).
 
 
 {{ new_block() }}
 
 
 # Schedule
+
+All talks will take place in room 328 at [17 Hillhouse Avenue, New Haven, CT 06511](https://www.google.com/maps?q=17+Hillhouse+Avenue,+New+Haven,+CT,+06511,+us).
 
 | Time              | Speaker                                             | Title                                      |
 | :---------------: | :-------------------------------------------------: | :----------------------------------------: |
