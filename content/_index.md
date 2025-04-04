@@ -15,7 +15,7 @@ All talks will take place in room 328 at <a href="https://www.google.com/maps?q=
 </center>
 
 | Time              | Speaker                                             | Title                                      |
-| :---------------: | :-------------------------------------------------: | :----------------------------------------: |
+| :---------------: | :-------------------------------------------------- | :----------------------------------------- |
 | 08:00am - 09:00am | -                                                   | Breakfast                                  |
 | 09:00am - 09:05am | Ben Fisch (Yale University)                         | Opening Remarks                            |
 | 09:05am - 09:50am | Tim Roughgarden (Columbia University & a16z crypto) | Keynote                                    |
