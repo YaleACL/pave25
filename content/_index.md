@@ -10,7 +10,7 @@ This is a one-day event of talks and discussion, organized by [Yale's Applied Cr
 
 # Schedule
 
-All talks will take place in room 328 at [17 Hillhouse Avenue, New Haven, CT 06511](https://www.google.com/maps?q=17+Hillhouse+Avenue,+New+Haven,+CT,+06511,+us).
+<center>All talks will take place in room 328 at [17 Hillhouse Avenue, New Haven, CT 06511](https://www.google.com/maps?q=17+Hillhouse+Avenue,+New+Haven,+CT,+06511,+us).</center>
 
 | Time              | Speaker                                             | Title                                      |
 | :---------------: | :-------------------------------------------------: | :----------------------------------------: |
