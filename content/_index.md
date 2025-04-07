@@ -18,7 +18,7 @@ All talks will take place in room 328 at <a href="https://www.google.com/maps?q=
 | :---------------: | :-------------------------------------------------- | :----------------------------------------- |
 | 08:00am - 09:00am | -                                                   | Breakfast                                  |
 | 09:00am - 09:05am | Ben Fisch (Yale University)                         | Opening Remarks                            |
-| 09:05am - 09:50am | Tim Roughgarden (Columbia University & a16z crypto) | Keynote                                    |
+| 09:05am - 09:50am | Tim Roughgarden (Columbia University & a16z crypto) | Keynote: Accountable Liveness              |
 | 10:00am - 10:45am | Chelsea Komlo (University of Waterloo & NEAR)       | TBA                                        |
 | 11:00am - 11:45am | Vassilis Zikas (Georgia Tech)                       | TBA                                        |
 | 11:45am - 01:00pm | -                                                   | Lunch                                      |
