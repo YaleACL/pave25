@@ -23,7 +23,7 @@ All talks will take place in room 328 at <a href="https://www.google.com/maps?q=
 | 11:00am - 11:45am | Vassilis Zikas (Georgia Tech)                       | TBA                                                                |
 | 11:45am - 01:00pm | -                                                   | Lunch                                                              |
 | 01:00pm - 01:45pm | Longfei Qiu (Yale University)                       | Formal Verification of Blockchains: Consensus, Mempool, and Beyond |
-| 02:00pm - 02:45pm | Lewis Cohen (Cahill Gordon & Reindel LLP)           | Decentralization and Its Regulatory Implications                   |
+| 02:00pm - 02:45pm | Lewis Cohen (Cahill Gordon & Reindel LLP)           | Decentralization and Its Discontents                               |
 | 03:00pm - 03:45pm | Fahad Saleh (University of Florida)                 | An Economic Model of the L1-L2 Interaction                         |
 | 04:00pm - 04:45pm | Matt Weinberg (Prinecton)                           | Analyzing the economic impact of decentralization on users         |
 
