@@ -90,12 +90,12 @@ All talks will take place in room 328 at <a href="https://www.google.com/maps?q=
     ],
     images = [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Wsgwuhye6Cp7A79ApFbDj63PcwvDw848hQ&s",
-        "https://seas.yale.edu/sites/default/files/imagecache/person/fisch-web.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrDbtX2oBJKWxMbHV5of3DXeUgQTbimwEXRQ&s",
         "https://campuspress.yale.edu/fdstest/files/2023/01/CharalamposPapamanthou.jpeg",
-        "https://seas.yale.edu/sites/default/files/imagecache/person/sotiraki-web.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpDfHKj2fD0mDqVspbnPcyH-UhzcIF5WmyKA&s",
         "https://gilbert.berkeley.edu/wp-content/uploads/2021/02/philipp_strack.jpg",
         "https://avatars.githubusercontent.com/u/12000894?v=4",
-        "https://seas.yale.edu/sites/default/files/imagecache/person/zhang-web.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR74KA9hYNbKRGjXu8u01gOhxnw3zrkwko9Aw&s",
     ],
     narrow = true) }}
 
