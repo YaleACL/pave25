@@ -89,7 +89,7 @@ All talks will take place in room 328 at <a href="https://www.google.com/maps?q=
         "https://www.fanzhang.me/",
     ],
     images = [
-        "https://seas.yale.edu/sites/default/files/imagecache/person/bergemann-web.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Wsgwuhye6Cp7A79ApFbDj63PcwvDw848hQ&s",
         "https://seas.yale.edu/sites/default/files/imagecache/person/fisch-web.jpg",
         "https://campuspress.yale.edu/fdstest/files/2023/01/CharalamposPapamanthou.jpeg",
         "https://seas.yale.edu/sites/default/files/imagecache/person/sotiraki-web.jpg",
