@@ -19,7 +19,7 @@ All talks will take place in room 328 at <a href="https://www.google.com/maps?q=
 | 08:00am - 09:00am | -                                                   | Breakfast                                                              |
 | 09:00am - 09:05am | Ben Fisch (Yale University)                         | Opening Remarks                                                        |
 | 09:05am - 09:50am | Tim Roughgarden (Columbia University & a16z crypto) | Keynote: Accountable Liveness                                          |
-| 10:00am - 10:45am | Chelsea Komlo (University of Waterloo & NEAR)       | TBA                                                                    |
+| 10:00am - 10:45am | Hadas Zeilberger (Yale University)                  | Blaze: Fast SNARKs from Interleaved RAA Codes                          |
 | 11:00am - 11:45am | Vassilis Zikas (Georgia Tech)                       | CryptoGT: Cryptography and Game Theory for the Analysis of Blockchains |
 | 11:45am - 01:00pm | -                                                   | Lunch                                                                  |
 | 01:00pm - 01:45pm | Longfei Qiu (Yale University)                       | Formal Verification of Blockchains: Consensus, Mempool, and Beyond     |
@@ -36,29 +36,29 @@ All talks will take place in room 328 at <a href="https://www.google.com/maps?q=
 {{ link_grid(
     text = [
         ["Lewis Cohen", "Cahill Gordon & Reindel LLP"],
-        ["Chelsea Komlo", "University of Waterloo & NEAR"],
         ["Longfei Qiu", "Yale University"],
         ["Tim Roughgarden", "Columbia University & a16z crypto"],
         ["Fahad Saleh", "University of Florida"],
         ["Matt Weinberg", "Princeton University"],
+        ["Hadas Zeilberger", "Yale University"],
         ["Vassilis Zikas", "Georgia Tech"],
     ],
     urls = [
         "https://www.cahill.com/professionals/lewis-cohen",
-        "https://www.chelseakomlo.com/",
         "https://flint.cs.yale.edu/",
         "https://timroughgarden.org/",
         "https://www.cryptoeconprof.com/",
         "https://www.cs.princeton.edu/~smattw/",
+        "https://www.hadasze.me/",
         "https://faculty.cc.gatech.edu/~vzikas/",
     ],
     images = [
         "https://www.cahill.com/professionals/lewis-cohen/_res/id=Picture",
-        "https://secure.gravatar.com/avatar/ae3189b3f88830beadae8f0afdc1c2b920792e9fc5ee490ac615a3b8e1f7f7c5?s=384&d=identicon",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF3VEE9NiuF8khib0R3FVurxJvCJgmDpOb5g&s",
         "https://api.a16zcrypto.com/wp-content/uploads/2023/01/Tim-Roughgarden-240x240-1.jpeg",
         "https://prod.cdn.business.wfu.edu/uploads/2023/12/Fahad-400x400-1.webp",
         "https://simons.berkeley.edu/sites/default/files/styles/post_card_xxl_2x/public/mattwebsite.jpeg.jpg",
+        "https://lh6.googleusercontent.com/6kF9yBq51vWPGMXGl3pUW4VgeiII1qVMDMkO-bldFNusjrTgU6HCajjdx73-1DwaDVI5MsDtCNYy__rp-xlWhs5X6MExp4CowtjEVg6OE3mD_MMQYIXYv6dofEYuuJzOLQ=w1280",
         "https://www.cerias.purdue.edu/assets/images/people/zikas_300.png",
     ],
     narrow = true) }}
