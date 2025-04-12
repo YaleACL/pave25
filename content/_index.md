@@ -58,7 +58,7 @@ All talks will take place in room 328 at <a href="https://www.google.com/maps?q=
         "https://api.a16zcrypto.com/wp-content/uploads/2023/01/Tim-Roughgarden-240x240-1.jpeg",
         "https://prod.cdn.business.wfu.edu/uploads/2023/12/Fahad-400x400-1.webp",
         "https://simons.berkeley.edu/sites/default/files/styles/post_card_xxl_2x/public/mattwebsite.jpeg.jpg",
-        "https://lh6.googleusercontent.com/6kF9yBq51vWPGMXGl3pUW4VgeiII1qVMDMkO-bldFNusjrTgU6HCajjdx73-1DwaDVI5MsDtCNYy__rp-xlWhs5X6MExp4CowtjEVg6OE3mD_MMQYIXYv6dofEYuuJzOLQ=w1280",
+        "https://zkproof.org/wp-content/uploads/2024/04/Hadas-Zeilberger-pic.jpeg",
         "https://www.cerias.purdue.edu/assets/images/people/zikas_300.png",
     ],
     narrow = true) }}
